@@ -1,0 +1,185 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    color: #222;
+    font-family: 'Lato', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    margin: 0 auto;
+    max-width: 960px;
+    width: 100%;
+}
+
+section {
+    padding: 4rem 0;
+}
+
+section p:last-child {
+    margin-bottom: 0;
+}
+
+h1,
+h2,
+h3 {
+    font-family: 'DM Serif Display', serif;
+    letter-spacing: .75px;
+    line-height: 1;
+    margin: 0;
+}
+
+h1 {
+    font-size: 2.5rem;
+}
+
+h2 {
+    font-size: 1.75rem;
+    margin-bottom: 1.25rem;
+}
+
+h3 {
+    font-size: 1.5rem;
+    margin-bottom: 1.125rem;
+}
+
+p {
+    line-height: 1.33;
+    margin-top: 0;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+.columns {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.columns .column-full {
+    width: 100%;
+}
+
+.columns .column-half {
+    width: 49%;
+}
+
+.columns .column-one-third {
+    width: 33%;
+}
+
+.columns .column-two-thirds {
+    width: 62%;
+}
+
+/* Header */
+.site-header {
+    background-color: #222;
+    color: #fff;
+    padding: 2rem 0;
+}
+
+.navigation {
+    align-self: center;
+    text-align: right;
+}
+
+.navigation a {
+    color: #fff;
+    display: inline-block;
+    margin-left: .75rem;
+    text-decoration: none;
+}
+
+.navigation a:hover {
+    text-decoration: underline;
+}
+
+/* About */
+.photo {
+    display: inline-block;
+    max-width: 100%;
+}
+
+/* Projects */
+.projects {
+    background-color: #222;
+    color: #fff;
+}
+
+.project {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 1.5rem 0;
+}
+
+.project-image {
+    width: 24%;
+}
+
+.project-info {
+    padding: 0 1.25rem;
+    width: 75%;
+}
+
+.project-link {
+    background-color: transparent;
+    border: 1px solid #fff;
+    border-radius: 0;
+    color: #fff;
+    cursor: pointer;
+    display: inline-block;
+    font-size: .75rem;
+    letter-spacing: .5px;
+    margin-top: .75rem;
+    padding: .5rem 1rem;
+    text-transform: uppercase;
+}
+
+.project-link:hover {
+    background-color: #fff;
+    color: #222;
+}
+
+/* Skills */
+.skills ul {
+    margin: 0;
+    padding: 0;
+}
+
+.skills ul li {
+    display: inline-block;
+    font-size: 3.5rem;
+    list-style: none;
+    padding-right: .5rem;
+}
+
+/* Contact */
+.contact {
+    background-color: #222;
+    color: #fff;
+}
+
+.contact ul li {
+    display: inline-block;
+    font-size: 1.5rem;
+    list-style: none;
+    padding-right: .875rem;
+}
+
+.contact ul li a {
+    color: #fff;
+}
+
+/* Footer */
+.site-footer {
+    padding: 1rem 0;
+    text-align: center;
+}
