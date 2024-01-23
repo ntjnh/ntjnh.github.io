@@ -199,8 +199,8 @@ ul {
 
 /* Contact */
 .contact {
-    background-color: #222;
-    color: #fff;
+    background-color: #40bcbd;
+    color: #222;
 }
 
 .social {
@@ -215,11 +215,11 @@ ul {
 }
 
 .social li a {
-    color: #fff;
+    color: #222;
 }
 
 .social li a:hover {
-    color: #40bcbd;
+    color: #fff;
 }
 
 /* Footer */
