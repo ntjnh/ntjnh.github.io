@@ -171,22 +171,30 @@ ul {
 }
 
 /* Skills */
+.skills p {
+    margin: 0;
+}
+
 .skills ul {
     align-items: center;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    margin: 1.75rem 0 0;
+    margin: 2.25rem 0 0;
     padding: 0;
     text-align: center;
 }
 
 .skills ul li {
-    display: inline-block;
+    align-items: center;
+    aspect-ratio: 1;
+    border: 1px solid #222;
+    display: flex;
     font-size: 3.5rem;
+    justify-content: center;
     list-style: none;
-    padding-right: .5rem;
-    width: 12.5%;
+    padding: 0;
+    width: 11%;
 }
 
 /* Contact */
