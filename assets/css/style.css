@@ -41,8 +41,10 @@ h1 {
 }
 
 h2 {
+    border-bottom: 4px double #222;
     font-size: 1.75rem;
     margin-bottom: 1.25rem;
+    padding-bottom: 1.25rem;
 }
 
 h3 {
@@ -85,8 +87,11 @@ ul {
 /* Header */
 .site-header {
     background-color: #222;
-    color: #fff;
     padding: 2rem 0;
+}
+
+.site-header h1 {
+    color: #40bcbd;
 }
 
 .navigation {
@@ -115,6 +120,10 @@ ul {
 .projects {
     background-color: #222;
     color: #fff;
+}
+
+.projects h2 {
+    border-color: #fff;
 }
 
 .project {
