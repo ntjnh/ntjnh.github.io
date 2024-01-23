@@ -100,14 +100,23 @@ ul {
 }
 
 .navigation a {
-    color: #fff;
+    background-color: transparent;
+    border-radius: 0;
+    border: 1px solid #40bcbd;
+    color: #40bcbd;
+    cursor: pointer;
     display: inline-block;
-    margin-left: .75rem;
+    font-size: .75rem;
+    letter-spacing: .5px;
+    margin-left: .5rem;
+    padding: .5rem 1rem;
     text-decoration: none;
+    text-transform: uppercase;
 }
 
 .navigation a:hover {
-    text-decoration: underline;
+    color: #fff;
+    border-color: #fff;
 }
 
 /* About */
