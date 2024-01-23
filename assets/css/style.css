@@ -240,6 +240,32 @@ ul {
 }
 
 /* Media Queries */
+@media screen and (min-width: 768px) {
+    section {
+        padding: 3rem 2rem;
+    }
+
+    .site-header {
+        padding: 2rem 1.75rem;
+    }
+
+    .site-header h1 {
+        margin-bottom: 2.5rem;
+    }
+
+    .photo {
+        width: 100%;
+    }
+
+    .skills ul {
+        margin-top: 2rem;
+    }
+
+    .skills ul li {
+        font-size: 3.5rem;
+    }
+}
+
 @media screen and (min-width: 992px) {
     section {
         padding: 4rem 0;
@@ -279,6 +305,7 @@ ul {
 
     .photo {
         margin-bottom: 0;
+        width: unset;
     }
 
     .project-image {
