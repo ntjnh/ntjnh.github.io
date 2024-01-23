@@ -148,12 +148,14 @@ ul {
 }
 
 .project-image {
-    width: 24%;
+    display: inline-block;
+    margin-bottom: 1.5rem;
+    width: 100%;
 }
 
 .project-info {
-    padding: 0 1.25rem;
-    width: 75%;
+    padding: 0;
+    width: 100%;
 }
 
 .project-link {
@@ -277,6 +279,16 @@ ul {
 
     .photo {
         margin-bottom: 0;
+    }
+
+    .project-image {
+        margin-bottom: 0;
+        width: 24%;
+    }
+
+    .project-info {
+        padding: 0 1.25rem;
+        width: 75%;
     }
 
     .skills ul {
