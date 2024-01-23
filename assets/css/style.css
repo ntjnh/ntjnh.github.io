@@ -131,9 +131,9 @@ ul {
 
 .project-link {
     background-color: transparent;
-    border: 1px solid #fff;
+    border: 1px solid #40bcbd;
     border-radius: 0;
-    color: #fff;
+    color: #40bcbd;
     cursor: pointer;
     display: inline-block;
     font-size: .75rem;
@@ -144,14 +144,19 @@ ul {
 }
 
 .project-link:hover {
-    background-color: #fff;
+    background-color: #40bcbd;
     color: #222;
 }
 
 /* Skills */
 .skills ul {
-    margin: 0;
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 1.75rem 0 0;
     padding: 0;
+    text-align: center;
 }
 
 .skills ul li {
@@ -159,6 +164,7 @@ ul {
     font-size: 3.5rem;
     list-style: none;
     padding-right: .5rem;
+    width: 12.5%;
 }
 
 /* Contact */
@@ -167,15 +173,23 @@ ul {
     color: #fff;
 }
 
-.contact ul li {
+.social {
+    margin-top: 1.5rem;
+}
+
+.social li {
     display: inline-block;
     font-size: 1.5rem;
     list-style: none;
     padding-right: .875rem;
 }
 
-.contact ul li a {
+.social li a {
     color: #fff;
+}
+
+.social li a:hover {
+    color: #40bcbd;
 }
 
 /* Footer */
