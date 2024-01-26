@@ -203,7 +203,52 @@ ul {
     list-style: none;
     margin-bottom: .25rem;
     padding: 0;
+    transition: border .5s ease-in;
     width: 24%
+}
+
+.skills ul li .skill-icon {
+    transition: color .3s ease-in;
+}
+
+.skills ul li.html5 {
+    border-color: #dd4b30;
+    color: #dd4b30;
+}
+
+.skills ul li.css3 {
+    border-color: #264bdf;
+    color: #264bdf;
+}
+
+.skills ul li.sass {
+    border-color: #c66494;
+    color: #c66494;
+}
+
+.skills ul li.js {
+    border-color: #e8d44c;
+    color: #e8d44c;
+}
+
+.skills ul li.react {
+    border-color: #5ed3f2;
+    color: #5ed3f2;
+}
+
+.skills ul li.php {
+    border-color: #868eb8;
+    color: #868eb8;
+}
+
+.skills ul li.gulp {
+    border-color:  #cd4745;
+    color:  #cd4745;
+}
+
+.skills ul li.npm {
+    border-color: #c53636;
+    color: #c53636;
 }
 
 /* Contact */
