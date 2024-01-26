@@ -11,6 +11,7 @@ body {
     font-family: 'Lato', sans-serif;
     margin: 0;
     padding: 0;
+    position: relative;
 }
 
 .container {
@@ -123,6 +124,8 @@ ul {
     border-color: #fff;
 }
 
+/* Main content */
+
 /* About */
 .photo {
     display: inline-block;
@@ -196,6 +199,7 @@ ul {
     align-items: center;
     aspect-ratio: 1;
     border: 1px solid #222;
+    cursor: pointer;
     display: flex;
     flex-wrap: wrap;
     font-size: 2.5rem;
@@ -204,7 +208,7 @@ ul {
     margin-bottom: .25rem;
     padding: 0;
     transition: border .5s ease-in;
-    width: 24%
+    width: 24%;
 }
 
 .skills ul li .skill-icon {
@@ -282,6 +286,85 @@ ul {
     color: #fff;
     padding: 1rem 0;
     text-align: center;
+}
+
+/* Skill Modal */
+@keyframes modalAppear {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+
+@keyframes modalDisappear {
+    from {
+        opacity: 1;
+    }
+
+    to {
+        opacity: 0;
+    }
+}
+
+.skill-modal {
+    align-items: center;
+    animation: modalAppear .5s ease-in-out .1s 1 forwards;
+    background-color: rgba(0, 0, 0, .6);
+    display: none;
+    height: 100vh;
+    justify-content: center;
+    left: 0;
+    opacity: 0;
+    position: fixed;
+    top: 0;
+    width: 100vw;
+}
+
+.skill-modal .modal-inner {
+    background-color: #fff;
+    height: min-content;
+    padding: 2.5rem 2rem;
+    position: relative;
+    width: 600px;
+}
+
+.skill-modal .modal-inner button {
+    background-color: transparent;
+    border: 1px solid #40bcbd;
+    color: #40bcbd;
+    border-radius: 0;
+    cursor: pointer;
+    display: inline-block;
+    font-size: 1.5rem;
+    line-height: 1;
+    padding: .225rem .4375rem;
+    position: absolute;
+    right: 1rem;
+    top: 1rem;
+    transition: all .2s linear;
+}
+
+.skill-modal .modal-inner button:hover {
+    background-color: #40bcbd;
+    border-color: #40bcbd;
+    color: #fff;
+}
+
+.skill-modal .modal-inner h3 {
+    border-bottom: 4px double #222;
+    margin-bottom: 1.5rem;
+    padding-bottom: 1rem;
+}
+
+.skill-modal .modal-inner div p {
+    margin-top: 0;
+}
+
+.skill-modal .modal-inner div p:last-child {
+    margin-bottom: 0;
 }
 
 /* Media Queries */
